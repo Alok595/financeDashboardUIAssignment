@@ -12,7 +12,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-export const Navbar = ({ toggleSidebar, sidebarOpen, isMobile }) => {
+export const NavBar = ({ toggleSidebar, sidebarOpen, isMobile }) => {
   const [openUserMenu, setOpenUserMenu] = useState(false);
   const [role, setRole] = useState("User");
   const menuRef = useRef();

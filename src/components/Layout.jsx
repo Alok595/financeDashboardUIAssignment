@@ -1,7 +1,7 @@
 // components/Layout.jsx
 import React, { useState, useEffect } from "react";
 import { Sidebar } from "./Sidebar";
-import { Navbar } from "./Navbar";
+import { NavBar } from "./NavBar";
 
 export const Layout = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -17,7 +17,7 @@ export const Layout = ({ children }) => {
 
   return (
     <div>
-      <Navbar
+      <NavBar
         toggleSidebar={() => setSidebarOpen((prev) => !prev)}
         sidebarOpen={sidebarOpen}
         isMobile={isMobile}
