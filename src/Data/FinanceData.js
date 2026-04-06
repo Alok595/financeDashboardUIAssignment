@@ -1,0 +1,17 @@
+export const transactions = [
+  { id: 1, date: "2026-03-01", amount: 30000, category: "Salary", type: "income" },
+  { id: 2, date: "2026-03-02", amount: 1500, category: "Food", type: "expense" },
+  { id: 3, date: "2026-03-03", amount: 2000, category: "Transport", type: "expense" },
+  { id: 4, date: "2026-03-04", amount: 5000, category: "Freelance", type: "income" },
+  { id: 5, date: "2026-03-05", amount: 2500, category: "Shopping", type: "expense" },
+  { id: 6, date: "2026-03-06", amount: 1200, category: "Food", type: "expense" },
+  { id: 7, date: "2026-03-07", amount: 3000, category: "Bills", type: "expense" },
+  { id: 8, date: "2026-03-08", amount: 10000, category: "Investment", type: "income" },
+  { id: 9, date: "2026-03-09", amount: 1800, category: "Entertainment", type: "expense" },
+  { id: 10, date: "2026-03-10", amount: 2200, category: "Travel", type: "expense" },
+  { id: 11, date: "2026-03-11", amount: 4000, category: "Side Hustle", type: "income" },
+  { id: 12, date: "2026-03-12", amount: 900, category: "Food", type: "expense" },
+  { id: 13, date: "2026-03-13", amount: 2700, category: "Shopping", type: "expense" },
+  { id: 14, date: "2026-03-14", amount: 3500, category: "Bills", type: "expense" },
+  { id: 15, date: "2026-03-15", amount: 15000, category: "Bonus", type: "income" },
+];
